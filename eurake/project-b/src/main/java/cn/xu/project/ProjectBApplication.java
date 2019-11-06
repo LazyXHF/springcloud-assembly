@@ -17,7 +17,7 @@ public class ProjectBApplication {
 
 
     @Bean
-    @LoadBalanced //使调用的客户端具有负载均衡的能力
+//    @LoadBalanced //使调用的客户端具有负载均衡的能力
     public RestTemplate getTemplate(){
         return new RestTemplate();
     }
