@@ -1,5 +1,7 @@
 server:
   port: 8002
+  tomcat:
+    max-threads: 20
   ###服务启动端口号
 spring:
   application:
@@ -15,6 +17,7 @@ eureka:
     register-with-eureka: true
   ###是否需要从eureka上获取注册信息
     fetch-registry: true
+
 
 
 
